@@ -1,0 +1,52 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: brown;
+}
+p{
+    color: black;
+    font-size: 18px;
+}
+h2{
+    color: black;
+    text-decoration: underline;
+}
+ul{
+    list-style-type: square;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+.section-title{
+    color: darkred;
+    font-size: 24px;
+}
+#intro{
+    background-color: blue;
+    padding: 10px;
+}
+.my-box{
+    border: 6px solid black;
+    margin: 20px;
+    padding: 15px;
+    background-color: bisque;
+}
+nav{
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    color: blue;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    color: red;
+}

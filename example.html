@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        .row :after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column"><img src="./images.jpg" alt="" style="width: 100%;"></div>
+        <div class="column"><img src="./images.jpg" alt="" style="width: 100%;"></div>
+        <div class="column"><img src="./images.jpg" alt="" style="width: 100%;"></div>
+    </div>
+</body>
+</html>
